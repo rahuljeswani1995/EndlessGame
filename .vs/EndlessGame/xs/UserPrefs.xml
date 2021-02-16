@@ -1,0 +1,32 @@
+﻿<Properties StartupConfiguration="{2CC6DE5A-EE98-46D9-B44A-654E927E7226}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Coin.cs">
+    <Files>
+      <File FileName="Assets/Scripts/CameraController.cs" />
+      <File FileName="Assets/Scripts/TileManager.cs" />
+      <File FileName="Assets/Scripts/PlayerManager.cs" Line="34" Column="52" />
+      <File FileName="Assets/Scripts/Events.cs" />
+      <File FileName="Assets/Scripts/PlayerController.cs" Line="134" Column="6" />
+      <File FileName="Assets/Scripts/Coin.cs" Line="25" Column="18" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="EndlessGame" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Scripts" expanded="True">
+                <Node name="Coin.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="2138d167-407c-4a05-b087-cf1247b27c8f" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
