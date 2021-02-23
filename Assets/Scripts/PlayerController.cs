@@ -24,11 +24,35 @@ public class PlayerController : MonoBehaviour
         controller = GetComponent<CharacterController>();
     }
 
+    void dataCollection(string Type) {
+        
+        float timeChangeInMillis = Time.deltaTime * 1000;
+
+        // Put your location here 
+        // location/<<user-name>>
+        // Make sure to change this
+        ScreenCapture.CaptureScreenshot("/Users/parambole/game-screenshots/param-"+timeChangeInMillis+"-"+Type);
+
+    }
+
     // Update is called once per frame
     void Update()
     {
         if (!PlayerManager.isGameStarted)
             return;
+
+
+        if(Input.GetKeyDown(KeyCode.W)) {
+            dataCollection("idle");
+        } else if(Input.GetKeyDown(KeyCode.UpArrow)) {
+            dataCollection("jump");
+        } else if(Input.GetKeyDown(KeyCode.DownArrow)) {
+            dataCollection("duck");
+        } else if(Input.GetKeyDown(KeyCode.LeftArrow)) {
+            dataCollection("left");
+        } else if(Input.GetKeyDown(KeyCode.RightArrow)) {
+            dataCollection("right");
+        }
 
         if (forwardSpeed < maxForwardSpeed)
             forwardSpeed += 0.1f * Time.deltaTime;
